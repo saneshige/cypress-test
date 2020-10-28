@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.yahoo.co.jp/",
+  "numTestsKeptInMemory": 5,
+  "defaultCommandTimeout": 12000,
+  "requestTimeout": 10000,
+  "waitForAnimations": true,
+  "modifyObstructiveCode": false,
+  "videoCompression": false,
+  "integrationFolder": "cypress/specs",
+  "viewportWidth": 1280,
+  "viewportHeight": 1024
+}
