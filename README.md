@@ -12,7 +12,7 @@ npm test
 # その他の実行方法
 ## cypress管理画面を表示して画面で実行
 ```
- node_modules/.bin/cypress open
+./node_modules/.bin/cypress open
 ```
 ## 画面を表示せずにすべて実行
 ```
@@ -21,5 +21,5 @@ npm test
 
 ## 画面を表示せず、個別に実行
 ```
-./node_modules/.bin/cypress run --headless --browser chrome --spec "cypress/specs/answerer-monitor.js"
+./node_modules/.bin/cypress run --headless --browser chrome --spec "cypress/specs/yahoo.js"
 ```
